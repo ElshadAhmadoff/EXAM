@@ -1,0 +1,74 @@
+﻿@model HomeViewModel
+
+<header class="header text-center">
+    <h1>INDIGO TEMPLATE</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium ullam consequatur repellat debitis maxime.</p>
+    <a href="" class="button-one">LEARN MORE</a>
+    <a href="" class="button-two">DOWNLOAD NOW</a>
+</header>
+<section class="services text-center">
+    <div class="container">
+        <h1>OUR SERVICES</h1>
+        <p class="title">Laudantium ullam consequatur repellat debitis maxime.</p>
+        <div class="d-flex">
+            <div class="row">
+                <div class="col-md-4">
+                    <span>
+                        <i class="bi bi-chat-quote-fill"></i>
+                    </span>
+                    <h2>WEB DESIGN</h2>
+                    <p>Sed tempus feugiat adipiscing nisl cursus aliquam dolore.</p>
+                    <a href="" class="button">LEARN MORE</a>
+                </div>
+                <div class="col-md-4 tr">
+                    <span>
+                        <i class="bi-chat-quote-fill"></i>
+                    </span>
+                    <h2>WORDPRESS DEVELOPMENT</h2>
+                    <p>Sed tempus feugiat adipiscing nisl cursus aliquam dolore.</p>
+                    <a href="" class="button">LEARN MORE</a>
+                </div>
+                <div class="col-md-4 tr">
+                    <span>
+                        <i class="bi bi-chat-quote-fill"></i>
+                    </span>
+                    <h2>AWESOME SERVICE TITLE</h2>
+                    <p>Sed tempus feugiat adipiscing nisl cursus aliquam dolore.</p>
+                    <a href="" class="button">LEARN MORE</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="posts text-center">
+    <div class="container">
+        <h1>RECENT POSTS</h1>
+        <p class="title">Laudantium ullam consequatur repellat debitis maxime.</p>
+        <div class="d-flex">
+            <div class="row">
+                @foreach (Post item in Model.posts)
+                 {
+                    <div class="col-md-4">
+                        <img src="~/img/@item.Image" alt="">
+                        <h2>@item.Head</h2>
+                        <p>@item.Text</p>
+                        <a href="" class="button">@item.ButtonText</a>
+                        <div class="alt"></div>
+                    </div>
+                 }
+            </div>
+        </div>
+    </div>
+</section>
+<section class="contact text-center">
+    <div class="container">
+        <h1>CONTACT US</h1>
+        <p class="title">Laudantium ullam consequatur repellat debitis maxime.</p>
+        <input type="text" placeholder="Name" style="margin-right: 30px;">
+        <input type="text" placeholder="Email">
+        <div class="area">
+            <textarea name="" id="" cols="30" rows="10" placeholder="Message" class="d-block"></textarea>
+        </div>
+        <a href="" class="button">SUBMIT</a>
+    </div>
+</section>

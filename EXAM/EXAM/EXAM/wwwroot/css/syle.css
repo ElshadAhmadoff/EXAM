@@ -1,0 +1,295 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.one{
+    margin-left: 730px!important;
+}
+.indigo{
+    font-size: 28px!important;
+    font-weight: bolder;
+}
+.menu{
+    font-size: 13px;
+    font-weight: bold;
+    color: black;
+    opacity: .78;
+}
+.menu-alt{
+    margin-left: 20px;
+}
+.header{
+    padding: 200px 0px;
+    background-image: url(/img/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+}
+.header h1{
+    font-weight: 800;
+    letter-spacing: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    display: inline-block;
+    padding: 30px 50px;
+    margin-bottom: 35px;
+    color: rgb(255, 255, 255);
+}
+.header p{
+    font-size: 24px;
+    width: 900px;
+    margin-left: 500px;
+    margin-bottom: 40px;
+    color: rgb(255, 255, 255);
+}
+.header .button-one{
+    text-decoration: none;
+    color: white;
+    background-color: #3498db;
+    font-weight: 700;
+    border: 1px solid none;
+    font-size: 13px;
+    padding: 16px 28px;
+    border-radius: 1px;
+    transition: all .3s ease;
+}
+.header .button-one:hover{
+    background-color: #266fa0;
+}
+.header .button-two{
+    text-decoration: none;
+    color: white;
+    background-color: #1abc9c;
+    font-weight: 700;
+    border: 1px solid none;
+    font-size: 13px;
+    padding: 16px 28px;
+    border-radius: 1px;
+    margin-left: 10px;
+    transition: all .3s ease;
+}
+.header .button-two:hover{
+    background-color: #1b7c69;
+}
+.services{
+    width: 100%;
+    background-color: rgba(129, 143, 125, 0);
+    padding: 100px 0px;
+}
+.services h1{
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 4px;
+}
+.services .title{
+    font-weight: 300;
+    opacity: .9;
+    margin-bottom: 100px;
+}
+.services span{
+    font-size: 30px;
+    border: 1px solid rgb(245, 242, 242);
+    border-radius: 50%;
+    padding: 16px 23px;
+    line-height: -10px;
+    box-shadow: -1px 3px 5px 0px;
+}
+.services h2{
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 40px;
+    opacity: .9;
+    margin-bottom: 25px;
+}
+.services .row p{
+    width: 300px;
+    font-size: 15px;
+    font-weight: 400;
+}
+.services .button{
+    text-decoration: none;
+    color: white;
+    background-color: #1abc9c;
+    font-weight: 700;
+    border: 1px solid none;
+    font-size: 12px;
+    padding: 13px 25px;
+    border-radius: 1px;
+    margin-top: 10px;
+    display: inline-block;
+    transition: all .3s ease;
+}
+.services .button:hover{
+    background-color: #1b7c69;
+}
+.services .row{
+    margin-left: 150px!important;
+}
+ .posts{
+    background-color: rgba(129, 143, 125, 0);
+    padding: 100px 0px;
+}
+ .posts .col-md-4{
+     position:relative;
+ }
+.posts .alt {
+    width: 275px;
+    height: 183px;
+    background-color: floralwhite;
+    position: absolute;
+    top:0px;
+    left:32px;
+    opacity:0;
+    transition:all .3s ease
+ }
+.posts .col-md-4:hover .alt{
+    opacity:.7;
+}
+    .posts h1 {
+        font-size: 24px;
+        font-weight: 700;
+        letter-spacing: 4px;
+    }
+.posts .title{
+    font-weight: 300;
+    opacity: .9;
+    margin-bottom: 100px;
+}
+.posts span{
+    font-size: 30px;
+    border: 1px solid rgb(245, 242, 242);
+    border-radius: 50%;
+    padding: 16px 23px;
+    line-height: -10px;
+    box-shadow: -1px 3px 5px 0px;
+}
+.posts h2{
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 40px;
+    opacity: .9;
+    margin-bottom: 25px;
+}
+.posts .row p{
+    width: 300px;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: justify;
+} 
+.posts .button{
+    text-decoration: none;
+    color: white;
+    background-color: #1abc9c;
+    font-weight: 700;
+    border: 1px solid none;
+    font-size: 12px;
+    padding: 13px 25px;
+    border-radius: 1px;
+    margin-top: 10px;
+    display: inline-block;
+    transition: all .3s ease;
+}
+.posts .button:hover{
+    background-color: #1b7c69;
+}
+.posts .row{
+    margin-left: 150px!important;
+}
+.contact{
+    background-color: rgba(129, 143, 125, 0);
+    padding: 100px 0px;
+}
+.contact h1{
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 4px;
+}
+.contact .title{
+    font-weight: 300;
+    opacity: .9;
+    margin-bottom: 100px;
+}
+.contact h2{
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 40px;
+    opacity: .9;
+    margin-bottom: 25px;
+}
+.contact .row p{
+    width: 300px;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: justify;
+} 
+.contact .button{
+    text-decoration: none;
+    color: white;
+    background-color: #1abc9c;
+    font-weight: 700;
+    border: 1px solid none;
+    font-size: 12px;
+    padding: 13px 25px;
+    border-radius: 1px;
+    margin-top: 10px;
+    display: inline-block;
+    transition: all .3s ease;
+    margin-left: -600px;
+}
+.contact .button:hover{
+    background-color: #1b7c69;
+}
+.contact input{
+    width: 330px;
+    height: 50px;
+    border:2px solid rgb(212, 205, 205);
+    padding: 0px 20px;
+}
+.contact .area{
+    margin-top: 30px;
+}
+.area textarea{
+    width: 695px;
+    margin-left: 300px;
+    height: 260px;
+    border:2px solid rgb(212, 205, 205);
+    padding: 15px 20px;
+    margin-bottom: 10px;
+}
+footer{
+    background-color: #273d4b;
+    padding: 100px;
+}
+footer h2{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+footer .f1{
+    color: white;
+    font-size: 12px;
+    width: 200px;
+    margin-bottom: 15px;
+    margin-left:100px;
+}
+footer .f2{
+    color: white;
+    font-size: 12px;
+    width: 200px;
+    margin-left:100px;
+}
+footer p{
+    color: white;
+    font-size: 12px;
+}
+footer a{
+    color: white;
+}
+/* typical phone screen resolution */
+@media only screen and (max-width : 768pxpx) {
+
+}
+
+
+
+
+   
